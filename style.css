@@ -7,7 +7,32 @@
     padding: 0px;
 }
 
+html, body {
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
 header {
     font-family: 'Raleway',sans-serif;
+
+}
+
+#red {
+    padding: 10px 0px;
+    height: 10vh;
+    width: 100vw;
+    background-color: #ff0000;
+    background: red url(imagens/logo-sao-paulo-256.png) no-repeat top center;
+}
+
+#white {
+    height: 10vh;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+#black {
+    height: 10vh;
+    width: 100vw;
+    background-color: #000000;
 }
 
