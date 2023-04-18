@@ -41,20 +41,20 @@ header {
     background-color: transparent;
 }
 
-menu {
+nav {
     height: 8vh;
     width: 100vw;
     background-color: #000000;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.219);
 }
 
-menu  a {
+nav  a {
     font-size: 1.3em;
     display: inline-block;
     color: white;
     padding: 10px 7px 0px 7px;
 }
 
-menu a:hover {
+nav a:hover {
     color: #ff0000;
 }
