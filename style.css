@@ -11,6 +11,10 @@ html, body {
     background-color: rgba(0, 0, 0, 0.404);
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     font-family: 'Raleway',sans-serif;
 }
@@ -43,11 +47,13 @@ menu {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.219);
 }
 
-menu  li {
+menu  a {
     font-size: 1.3em;
     display: inline-block;
     color: white;
-    padding: 4px 4px 0px 4px;
+    padding: 10px 4px 0px 4px;
 }
 
-
+menu a:hover {
+    color: #ff0000;
+}
