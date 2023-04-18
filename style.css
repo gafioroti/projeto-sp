@@ -20,7 +20,7 @@ header {
     height: 10vh;
     width: 100vw;
     background-color: #ff0000;
-    background: red url(imagens/logo-sao-paulo-256.png) no-repeat top center;
+    
 }
 
 #white {
@@ -29,14 +29,24 @@ header {
     background-color: #ffffff;
 }
 
+#escudo img {
+    position: absolute;
+    top: 1%;
+    left: 40%;
+    width: 200px;
+}
+
 menu {
     height: 10vh;
     width: 100vw;
     background-color: #000000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.219);
 }
 
 menu  li {
+    font-size: 1.5em;
     display: inline-block;
     color: white;
+    padding: 4px 4px 0px 4px;
 }
 
