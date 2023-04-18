@@ -36,8 +36,8 @@ header {
 #escudo img {
     position: absolute;
     top: 1%;
-    left: 40%;
-    width: 200px;
+    left: 42%;
+    width: 180px;
     background-color: transparent;
 }
 
@@ -57,4 +57,5 @@ nav  a {
 
 nav a:hover {
     color: #ff0000;
+    transition-duration: 0.2s;
 }
