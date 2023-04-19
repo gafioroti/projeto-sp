@@ -52,10 +52,18 @@ nav  a {
     font-size: 1.3em;
     display: inline-block;
     color: white;
-    padding: 10px 7px 0px 7px;
+    padding: 10px 10px 0px 10px;
 }
 
 nav a:hover {
     color: #ff0000;
     transition-duration: 0.2s;
+}
+
+#esquerda {
+    margin-left: 40px;
+}
+
+#direita {
+    margin-left: 750px;
 }
