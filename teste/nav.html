@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
         }
-        #container {
+        .container {
             display: flex;
             list-style: none;
             padding: 0;
@@ -17,22 +17,19 @@
             width: 100vw;
             background-color: #000000;
         }
-        #justify-content-between {
-            justify-content: space-between!important;
-        }
 
-        #container ul li {
+        .container ul li {
             display: inline;
         }
 
-        #container ul li a {
+        .container ul li a {
             text-decoration: none;
             color: white;
             display: inline-block;
             padding: 10px 10px 0px 10px;
         }
 
-        #container ul li a:hover {
+        .container ul li a:hover {
             color: red;
             transition-duration: 0.2s;
         }
@@ -40,10 +37,10 @@
     <title>Document</title>
 </head>
 <body>
-    <nav id="container">
-            <div id="justify-content-between">
-                <div>
-                    <ul>
+    <nav class="container">
+            <div class="container">
+                <div class="container">
+                    <ul class="container">
                         <li><a href="#">Clube</a></li>
                         <li><a href="#">SPFCpédia</a></li>
                         <li><a href="#">Estrutura</a></li>
@@ -51,8 +48,8 @@
                         <li><a href="#">Notícia</a></li>
                     </ul>
                 </div>
-                <div>
-                    <ul>
+                <div class="container">
+                    <ul class="container">
                         <li><a href="#">Interativo</a></li>
                         <li><a href="#">Sócio Torcedor</a></li>
                         <li><a href="#">Ingressos</a></li>
