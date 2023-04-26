@@ -41,6 +41,11 @@ header {
     background-color: transparent;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
 nav {
     height: 8vh;
     width: 100vw;
@@ -65,5 +70,5 @@ nav a:hover {
 }
 
 #direita {
-    margin-left: 750px;
+    
 }
